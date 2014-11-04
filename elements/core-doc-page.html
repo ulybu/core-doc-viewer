@@ -38,10 +38,12 @@ Displays formatted source documentation scraped from input urls.
 
         <h1>{{data.name}}</h1>
 
-        <p id="info" layout horizontal center>
-          <span layout horizontal center><core-icon icon="home"></core-icon><a href="{{data | homepageFilter}}">Home Page</a></span>
-          <span layout horizontal center hidden?="{{!data.version}}"><core-icon icon="info-outline"></core-icon>Version: {{data.version}}</span>
-        </p>
+        <template if="{{data.homepage}}">
+          <p id="info" layout horizontal center>
+            <span layout horizontal center><core-icon icon="home"></core-icon><a href="{{data | homepageFilter}}">Home Page</a></span>
+            <span layout horizontal center hidden?="{{!data.version}}"><core-icon icon="info-outline"></core-icon>Version: {{data.version}}</span>
+          </p>
+        </template>
 
         <template if="{{data.extends}}">
           <section class="top">
@@ -162,7 +164,7 @@ Displays formatted source documentation scraped from input urls.
         if (!data) {
           return '';
         }
-        if (!data.homepage || data.homepage === 'github.io') {
+        if (data.homepage === 'github.io') {
           return '//polymer.github.io/' + data.name;
         } else {
           return data.homepage;
