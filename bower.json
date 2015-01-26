@@ -1,0 +1,21 @@
+{
+  "name": "demo-core-doc-with-return",
+  "version": "0.4.2",
+  "homepage": "https://github.com/ulybu/core-doc-viewer",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "context-free-parser": "https://github.com/ulybu/context-free-parser.git#add_support_for_return",
+    "core-doc-viewer": "https://github.com/ulybu/core-doc-viewer.git#render_return_method"
+  },
+  "resolutions": {
+    "context-free-parser": "add_support_for_return"
+  }
+}

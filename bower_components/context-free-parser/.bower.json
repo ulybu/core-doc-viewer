@@ -1,0 +1,18 @@
+{
+  "name": "context-free-parser",
+  "private": true,
+  "dependencies": {
+    "polymer": "Polymer/polymer#master"
+  },
+  "homepage": "https://github.com/ulybu/context-free-parser",
+  "_release": "d87494f72b",
+  "_resolution": {
+    "type": "branch",
+    "branch": "add_support_for_return",
+    "commit": "d87494f72bf2b9df051e8293a94dad6384919be9"
+  },
+  "_source": "https://github.com/ulybu/context-free-parser.git",
+  "_target": "add_support_for_return",
+  "_originalSource": "https://github.com/ulybu/context-free-parser.git",
+  "_direct": true
+}

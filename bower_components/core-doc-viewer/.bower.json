@@ -1,0 +1,27 @@
+{
+  "name": "core-doc-viewer",
+  "private": true,
+  "dependencies": {
+    "core-ajax": "Polymer/core-ajax#master",
+    "core-menu": "Polymer/core-menu#master",
+    "core-item": "Polymer/core-item#master",
+    "core-toolbar": "Polymer/core-toolbar#master",
+    "core-icons": "Polymer/core-icons#master",
+    "core-icon-button": "Polymer/core-icon-button#master",
+    "core-header-panel": "Polymer/core-header-panel#master",
+    "context-free-parser": "Polymer/context-free-parser#master",
+    "marked-element": "PolymerLabs/marked-element#master",
+    "prettify-element": "Polymer/prettify-element#master"
+  },
+  "homepage": "https://github.com/ulybu/core-doc-viewer",
+  "_release": "1c0a5a4b26",
+  "_resolution": {
+    "type": "branch",
+    "branch": "render_return_method",
+    "commit": "1c0a5a4b26552482fcf04c9d6e5fd92996e94aea"
+  },
+  "_source": "https://github.com/ulybu/core-doc-viewer.git",
+  "_target": "render_return_method",
+  "_originalSource": "https://github.com/ulybu/core-doc-viewer.git",
+  "_direct": true
+}
